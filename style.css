@@ -1,0 +1,118 @@
+/* reset browser preset settings */
+* {
+    margin-top: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(245, 213, 72);
+ }
+
+img {
+max-width: 100%;
+}
+
+#Box {
+    background-color: white;
+    border-radius: 50px;
+    border: 10px;
+    border-style: outset;
+    border-top: 0px;
+    border-color: black;
+    padding: 2px;
+    padding-bottom: 30px;
+    border-left: 20px;
+    outline-style: outset;
+    outline-color: black;
+    outline-width: 2px;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#Photo {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    align-items: center;
+    width: 500px;
+    border-radius: 20px;
+}
+
+/*
+#P1 {
+    margin-left: 40px;
+    background-color: orange;
+    width: 85px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 6px;
+}*/
+
+button {
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    background-color: rgb(245, 213, 72);
+    border: none;
+    border-radius: 8px;
+}
+
+h5 {
+    margin-left: 42px;
+    color: rgb(49, 49, 49);
+    opacity: 0.8;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#Nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(49, 49, 49);
+}
+
+#Nav :visited {
+    color: red;
+}
+
+#Nav :hover {
+    color: rgb(245, 213, 72);
+}
+
+#Nav :active {
+    color: rgb(49, 49, 49);
+}
+
+ #P2 {
+    margin: auto 38px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    color: rgb(49, 49, 49);
+    opacity: 0.8;
+} 
+
+#Group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.Guy {
+    width: 40px;
+    margin-left: 38px;
+}
+
+h4 {
+    margin-left: 10px;
+    font-size: 12px;
+}

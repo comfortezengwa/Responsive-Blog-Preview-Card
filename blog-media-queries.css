@@ -1,0 +1,77 @@
+
+/* screens max-width 767px */
+
+@media (max-width: 767px) {
+#Box {
+
+    border-radius: 25px;
+    border: 5px;
+    border-style: outset;
+    border-top: 0px;
+    border-color: black;
+    padding: 2px;
+    padding-bottom: 30px;
+    border-left: 20px;
+    outline-style: outset;
+    outline-color: black;
+    outline-width: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Photo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    align-items: center;
+    width: 250px;
+    border-radius: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14x;
+}
+
+h5 {
+    margin-left: 22px;
+    margin-top: 0px;
+    font-size: x-small;
+    opacity: 0.8;
+}
+
+h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#P2 {
+    margin: auto 20px;
+    line-height: 1.5;
+    font-size: smaller;
+    opacity: 0.8;
+} 
+
+#Group {
+    margin-top: 40px;
+}
+
+.Guy {
+    width: 30px;
+    margin-left: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+}
